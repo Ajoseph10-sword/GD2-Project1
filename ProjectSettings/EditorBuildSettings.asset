@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Start Screen.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Game 1/Door Selection.unity
+    guid: 7b02b0c39383b1b4bb01dc8569f58aed
+  - enabled: 1
+    path: Assets/Game 1/Doors/Door 1.unity
+    guid: 8f729b36ddfc8a141b35809da67400df
+  - enabled: 1
+    path: Assets/Game 1/Doors/Door 2.unity
+    guid: ae9be0b49c8cd934686fe2628416a9b4
+  - enabled: 1
+    path: Assets/Game 1/Doors/Door 3.unity
+    guid: 386eb974ebae58f4c938b0da0c042397
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
