@@ -26,15 +26,20 @@ public class WhateverScript : MonoBehaviour
     {
         SceneManager.LoadScene("Incorrect1");
     }
-
-    public float Timer = 20;
+    public TextMeshPro Text;
+    public TextMeshPro Score;
+    public float Timer = 15;
 
     void Update()
     {
         Timer -= Time.deltaTime;
+        Text.text = "Time: " + Timer.ToString("0.0");
         if (Timer <= 0)
         {
             SceneManager.LoadScene("Times Up1");
         }
+
     }
+
+
 }
