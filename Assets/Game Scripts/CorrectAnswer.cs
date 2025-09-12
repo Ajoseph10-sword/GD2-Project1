@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CorrectAnswer : MonoBehaviour
     
@@ -17,10 +18,8 @@ public class CorrectAnswer : MonoBehaviour
         Answer3.text = "Joy Boy";
         Answer4.text = "Pirate Goku";
     }
-
-    // Update is called once per frame
-    void Update()
+    public void OpenScene()
     {
-        
+        SceneManager.LoadScene("Correct1");
     }
 }

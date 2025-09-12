@@ -12,14 +12,44 @@ EditorBuildSettings:
     path: Assets/Game 1/Door Selection.unity
     guid: 7b02b0c39383b1b4bb01dc8569f58aed
   - enabled: 1
-    path: Assets/Game 1/Doors/Door 1.unity
+    path: Assets/Game 1/Doors/Level 1/Door 1.unity
     guid: 8f729b36ddfc8a141b35809da67400df
   - enabled: 1
-    path: Assets/Game 1/Doors/Door 2.unity
+    path: Assets/Game 1/Doors/Level 1/Door 2.unity
     guid: ae9be0b49c8cd934686fe2628416a9b4
   - enabled: 1
-    path: Assets/Game 1/Doors/Door 3.unity
+    path: Assets/Game 1/Doors/Level 1/Door 3.unity
     guid: 386eb974ebae58f4c938b0da0c042397
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct1-1.unity
+    guid: 316f71406b3ee3948b515dd93a3298f5
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct2-1.unity
+    guid: be02d9188ab5d45408a758c7a5f7af35
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct3-1.unity
+    guid: 896dd35f81483474190d97bd151d6557
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Incorrect1.unity
+    guid: bbd6c886691a22b47af45c577e46fe6f
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Incorrect2-1.unity
+    guid: 8ad6576214d78d54eb495fe027173588
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Incorrect3-1.unity
+    guid: 59f48dcedf6b78142b886ee0fc4802b0
+  - enabled: 1
+    path: Assets/Game 1/Door Selection - Level 2.unity
+    guid: 2f4ef9fa0fcfe604199bec4001ce4e5a
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 2/Door 1 - Level 2.unity
+    guid: 7b2edf1fc8c259448ba6d901331f204f
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 2/Door 2 - Level 2.unity
+    guid: 56cefad7fd93c2e4392098f100163c95
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 2/Door 3 - Level 2.unity
+    guid: 55ce96777283a9c47926e84c0320e5dd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

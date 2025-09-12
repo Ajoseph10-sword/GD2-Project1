@@ -2,13 +2,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WhateverScript : MonoBehaviour
+public class WhateverScript3 : MonoBehaviour
 {
-    public TextMeshProUGUI Title;
-    public TextMeshProUGUI Answer1;
-    public TextMeshProUGUI Answer2;
-    public TextMeshProUGUI Answer3;
-    public TextMeshProUGUI Answer4;
     public TextMeshProUGUI QP3;
     public TextMeshProUGUI Answer9;
     public TextMeshProUGUI Answer10;
@@ -17,23 +12,16 @@ public class WhateverScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Title.text = "In the anime One Piece, what is the ephitet of Monkey D. Luffy?";
-        Answer1.text = "Straw Hat";
-        Answer2.text = "Rubber Man";
-        Answer3.text = "Joy Boy";
-        Answer4.text = "Pirate Goku";
         QP3.text = "Which gaming company created the Devil May Cry series";
         Answer9.text = "Activision";
         Answer10.text = "Capcom";
         Answer11.text = "Nintendo";
         Answer12.text = "Ubisoft";
-
     }
 
     // Update is called once per frame
     public void OpenScene()
     {
-        SceneManager.LoadScene("Incorrect1");
+        SceneManager.LoadScene("Incorrect3-1");
     }
-
 }
