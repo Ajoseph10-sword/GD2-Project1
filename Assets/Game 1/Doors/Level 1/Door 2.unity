@@ -270,6 +270,7 @@ MonoBehaviour:
   Answer6: {fileID: 1497481129}
   Answer7: {fileID: 1897496697}
   Answer8: {fileID: 347296295}
+  Timer: 20
 --- !u!1 &347296293
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +712,7 @@ MonoBehaviour:
   Answer6: {fileID: 1497481129}
   Answer7: {fileID: 1897496697}
   Answer8: {fileID: 347296295}
+  Timer: 20
 --- !u!1 &1138709800
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +807,7 @@ MonoBehaviour:
   Answer6: {fileID: 1497481129}
   Answer7: {fileID: 1897496697}
   Answer8: {fileID: 347296295}
+  Timer: 15
 --- !u!1 &1148124444
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +959,7 @@ MonoBehaviour:
   Answer6: {fileID: 1497481129}
   Answer7: {fileID: 1897496697}
   Answer8: {fileID: 347296295}
+  Timer: 20
 --- !u!1 &1475210463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,6 +1901,7 @@ MonoBehaviour:
   Answer6: {fileID: 1497481129}
   Answer7: {fileID: 1897496697}
   Answer8: {fileID: 347296295}
+  Timer: 20
 --- !u!114 &2034874388
 MonoBehaviour:
   m_ObjectHideFlags: 0

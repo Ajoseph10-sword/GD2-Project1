@@ -9,11 +9,7 @@ public class WhateverScript : MonoBehaviour
     public TextMeshProUGUI Answer2;
     public TextMeshProUGUI Answer3;
     public TextMeshProUGUI Answer4;
-    public TextMeshProUGUI QP3;
-    public TextMeshProUGUI Answer9;
-    public TextMeshProUGUI Answer10;
-    public TextMeshProUGUI Answer11;
-    public TextMeshProUGUI Answer12;
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,11 +18,6 @@ public class WhateverScript : MonoBehaviour
         Answer2.text = "Rubber Man";
         Answer3.text = "Joy Boy";
         Answer4.text = "Pirate Goku";
-        QP3.text = "Which gaming company created the Devil May Cry series";
-        Answer9.text = "Activision";
-        Answer10.text = "Capcom";
-        Answer11.text = "Nintendo";
-        Answer12.text = "Ubisoft";
 
     }
 
@@ -36,4 +27,14 @@ public class WhateverScript : MonoBehaviour
         SceneManager.LoadScene("Incorrect1");
     }
 
+    public float Timer = 20;
+
+    void Update()
+    {
+        Timer -= Time.deltaTime;
+        if (Timer <= 0)
+        {
+            SceneManager.LoadScene("Times Up1");
+        }
+    }
 }

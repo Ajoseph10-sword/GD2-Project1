@@ -270,6 +270,7 @@ MonoBehaviour:
   Answer2: {fileID: 2033693905}
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
+  Timer: 20
 --- !u!1 &411776253
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +695,7 @@ MonoBehaviour:
   Answer2: {fileID: 2033693905}
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
+  Timer: 20
 --- !u!114 &759001023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,6 +863,7 @@ MonoBehaviour:
   Answer2: {fileID: 2033693905}
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
+  Timer: 20
 --- !u!1 &1060606392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1446,7 @@ MonoBehaviour:
   Answer2: {fileID: 2033693905}
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
+  Timer: 20
 --- !u!1 &1863169273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,10 +1811,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Title: {fileID: 1337811958}
-  Answer1: {fileID: 0}
-  Answer2: {fileID: 0}
-  Answer3: {fileID: 0}
-  Answer4: {fileID: 0}
+  Answer1: {fileID: 1597537480}
+  Answer2: {fileID: 2033693905}
+  Answer3: {fileID: 505106654}
+  Answer4: {fileID: 411776255}
+  Timer: 15
 --- !u!1 &2125795979
 GameObject:
   m_ObjectHideFlags: 0

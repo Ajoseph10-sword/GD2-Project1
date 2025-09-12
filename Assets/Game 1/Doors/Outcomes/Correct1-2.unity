@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -9.45}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -2.5, y: -4.725006}
+  m_SizeDelta: {x: 5, y: 9.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &29553793
 MonoBehaviour:
@@ -333,7 +333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35, y: 9}
+  m_AnchoredPosition: {x: 34, y: 25}
   m_SizeDelta: {x: 561.8688, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &454793050
@@ -356,7 +356,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The rubber captain of the Straw Hat Pirates is never without his hat
+  m_text: Law's Devil Fruit allows him to create an spherical area of effect, or
+    "operation room", in order to use many other sub-abilities, including cutting
+    objects regardless of range
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -421,7 +423,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -30.342957, y: -14.609604, z: 1.1237793, w: 0}
+  m_margin: {x: -30.342957, y: -14.609604, z: 31.926392, w: -47.60412}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -469,7 +471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5142, y: 91.16205}
+  m_AnchoredPosition: {x: 9.5142, y: 111}
   m_SizeDelta: {x: 378.3488, y: 43.6759}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662860369
@@ -585,7 +587,7 @@ GameObject:
   - component: {fileID: 1260681027}
   - component: {fileID: 1260681030}
   m_Layer: 5
-  m_Name: --> Level 2
+  m_Name: --> Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -608,7 +610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5142, y: -53}
+  m_AnchoredPosition: {x: 9.5142, y: -84}
   m_SizeDelta: {x: 300.477, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1260681027
@@ -656,7 +658,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1260681030}
-        m_TargetAssemblyTypeName: CorrectUno, Assembly-CSharp
+        m_TargetAssemblyTypeName: NextStage1_3, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -714,7 +716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1260681024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f54b68906bb8b6248a8c5147d311bf3f, type: 3}
+  m_Script: {fileID: 11500000, guid: ef929e6c4b79b03449d077a855ef9d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1484236261
@@ -991,7 +993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Begin Level 2
+  m_text: Begin Level 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

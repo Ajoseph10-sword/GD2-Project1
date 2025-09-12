@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 376997258}
-        m_TargetAssemblyTypeName: HuhScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: WhateverScript, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -262,15 +262,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 376997253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4061619d97875174690b558c40c00719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  Timer: 15
+  Title: {fileID: 1337811958}
+  Answer1: {fileID: 1597537480}
+  Answer2: {fileID: 2033693905}
+  Answer3: {fileID: 505106654}
+  Answer4: {fileID: 411776255}
 --- !u!1 &411776253
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +282,7 @@ GameObject:
   - component: {fileID: 411776256}
   - component: {fileID: 411776255}
   m_Layer: 5
-  m_Name: Answer D1-2
+  m_Name: Answer D1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,7 +418,7 @@ GameObject:
   - component: {fileID: 505106655}
   - component: {fileID: 505106654}
   m_Layer: 5
-  m_Name: Answer C1-2
+  m_Name: Answer C1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -556,6 +555,7 @@ GameObject:
   - component: {fileID: 759001020}
   - component: {fileID: 759001019}
   - component: {fileID: 759001022}
+  - component: {fileID: 759001023}
   m_Layer: 5
   m_Name: Answer
   m_TagString: Untagged
@@ -627,8 +627,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 759001022}
-        m_TargetAssemblyTypeName: HuhScript, Assembly-CSharp
+      - m_Target: {fileID: 759001023}
+        m_TargetAssemblyTypeName: CorrectAnswer, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -686,15 +686,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 759001017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4061619d97875174690b558c40c00719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  Timer: 15
+  Title: {fileID: 1337811958}
+  Answer1: {fileID: 1597537480}
+  Answer2: {fileID: 2033693905}
+  Answer3: {fileID: 505106654}
+  Answer4: {fileID: 411776255}
+--- !u!114 &759001023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759001017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d206d4e034ad7894fb51e7de3b7ba30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Answer1: {fileID: 1597537480}
+  Answer2: {fileID: 2033693905}
+  Answer3: {fileID: 505106654}
+  Answer4: {fileID: 411776255}
 --- !u!1 &987409302
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +722,6 @@ GameObject:
   - component: {fileID: 987409307}
   - component: {fileID: 987409306}
   - component: {fileID: 987409305}
-  - component: {fileID: 987409309}
   - component: {fileID: 987409308}
   m_Layer: 5
   m_Name: Answer (4)
@@ -781,7 +795,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 987409308}
-        m_TargetAssemblyTypeName: MedicineMan, Assembly-CSharp
+        m_TargetAssemblyTypeName: WhateverScript, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -839,27 +853,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 987409302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bda48e189553aae4a91214a35e87043e, type: 3}
+  m_Script: {fileID: 11500000, guid: 4061619d97875174690b558c40c00719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &987409309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987409302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  Timer: 15
+  Title: {fileID: 1337811958}
+  Answer1: {fileID: 1597537480}
+  Answer2: {fileID: 2033693905}
+  Answer3: {fileID: 505106654}
+  Answer4: {fileID: 411776255}
 --- !u!1 &1060606392
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8301887, g: 0.7552039, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.68063617, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1030,7 +1031,7 @@ GameObject:
   - component: {fileID: 1337811959}
   - component: {fileID: 1337811958}
   m_Layer: 5
-  m_Name: Que.2
+  m_Name: Que.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1166,7 +1167,7 @@ GameObject:
   - component: {fileID: 1597537481}
   - component: {fileID: 1597537480}
   m_Layer: 5
-  m_Name: Answer A1-2
+  m_Name: Answer A1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1302,6 +1303,7 @@ GameObject:
   - component: {fileID: 1827444349}
   - component: {fileID: 1827444348}
   - component: {fileID: 1827444347}
+  - component: {fileID: 1827444350}
   m_Layer: 5
   m_Name: Answer (3)
   m_TagString: Untagged
@@ -1373,7 +1375,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1827444350}
         m_TargetAssemblyTypeName: WhateverScript, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
@@ -1423,6 +1425,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827444344}
   m_CullTransparentMesh: 1
+--- !u!114 &1827444350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827444344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4061619d97875174690b558c40c00719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: {fileID: 1337811958}
+  Answer1: {fileID: 1597537480}
+  Answer2: {fileID: 2033693905}
+  Answer3: {fileID: 505106654}
+  Answer4: {fileID: 411776255}
 --- !u!1 &1863169273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,7 +1592,7 @@ GameObject:
   - component: {fileID: 2033693906}
   - component: {fileID: 2033693905}
   m_Layer: 5
-  m_Name: Answer B1-2
+  m_Name: Answer B1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1710,7 +1729,7 @@ GameObject:
   - component: {fileID: 2122980660}
   - component: {fileID: 2122980662}
   m_Layer: 5
-  m_Name: QP2
+  m_Name: 'QP1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1749,7 +1768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5188679, g: 0.5167634, b: 0.5017355, a: 1}
+  m_Color: {r: 1, g: 0.3915094, b: 0.3915094, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1783,15 +1802,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2122980658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4061619d97875174690b558c40c00719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  Timer: 15
+  Title: {fileID: 1337811958}
+  Answer1: {fileID: 0}
+  Answer2: {fileID: 0}
+  Answer3: {fileID: 0}
+  Answer4: {fileID: 0}
 --- !u!1 &2125795979
 GameObject:
   m_ObjectHideFlags: 0

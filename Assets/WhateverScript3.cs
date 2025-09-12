@@ -24,4 +24,16 @@ public class WhateverScript3 : MonoBehaviour
     {
         SceneManager.LoadScene("Incorrect3-1");
     }
+
+    public float Timer = 20;
+
+    void Update()
+    {
+       Timer -= Time.deltaTime;
+        if (Timer <= 0)
+        {
+            SceneManager.LoadScene("Times Up3");
+        }
+    }
+
 }
