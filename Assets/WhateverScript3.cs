@@ -9,6 +9,7 @@ public class WhateverScript3 : MonoBehaviour
     public TextMeshProUGUI Answer10;
     public TextMeshProUGUI Answer11;
     public TextMeshProUGUI Answer12;
+    public TextMeshProUGUI metsu;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,11 +26,12 @@ public class WhateverScript3 : MonoBehaviour
         SceneManager.LoadScene("Incorrect3-1");
     }
 
-    public float Timer = 20;
+    public float Timer = 15;
 
     void Update()
     {
        Timer -= Time.deltaTime;
+        metsu.text = "Timer. " + Timer.ToString("0.0");
         if (Timer <= 0)
         {
             SceneManager.LoadScene("Times Up3");

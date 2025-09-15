@@ -356,9 +356,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Law's Devil Fruit allows him to create an spherical area of effect, or
-    "operation room", in order to use many other sub-abilities, including cutting
-    objects regardless of range
+  m_text: 'Hot Take: Frieren and Apothecary Diaries got robbed because of a popularity
+    contest. People saw flashy lights from Solo Leveling and said "peak fiction",
+    despite the lack of many aspects in the story'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -658,7 +658,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1260681030}
-        m_TargetAssemblyTypeName: NextStage1_3, Assembly-CSharp
+        m_TargetAssemblyTypeName: EndGame1, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1260681024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef929e6c4b79b03449d077a855ef9d91, type: 3}
+  m_Script: {fileID: 11500000, guid: 1520cb6e4aff6c14e8f04798437d91fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1484236261
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Begin Level 3
+  m_text: PRESS ME!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

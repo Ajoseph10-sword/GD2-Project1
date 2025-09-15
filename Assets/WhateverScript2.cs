@@ -9,6 +9,7 @@ public class WhateverScript2 : MonoBehaviour
     public TextMeshProUGUI Answer6;
     public TextMeshProUGUI Answer7;
     public TextMeshProUGUI Answer8;
+    public TextMeshProUGUI beard;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,11 +26,12 @@ public class WhateverScript2 : MonoBehaviour
         SceneManager.LoadScene("Incorrect2-1");
     }
 
-    public float Timer = 20;
+    public float Timer = 15;
 
     void Update()
     {
         Timer -= Time.deltaTime;
+        beard.text = "Time. " + Timer.ToString("0.0");
         if (Timer <= 0)
         {
             SceneManager.LoadScene("Times Up2");

@@ -9,7 +9,9 @@ public class WhateverScript : MonoBehaviour
     public TextMeshProUGUI Answer2;
     public TextMeshProUGUI Answer3;
     public TextMeshProUGUI Answer4;
-   
+    public TextMeshProUGUI Text;
+    public TextMeshProUGUI Score;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,8 +28,7 @@ public class WhateverScript : MonoBehaviour
     {
         SceneManager.LoadScene("Incorrect1");
     }
-    public TextMeshPro Text;
-    public TextMeshPro Score;
+  
     public float Timer = 15;
 
     void Update()
@@ -38,8 +39,7 @@ public class WhateverScript : MonoBehaviour
         {
             SceneManager.LoadScene("Times Up1");
         }
-
+      
     }
-
 
 }
