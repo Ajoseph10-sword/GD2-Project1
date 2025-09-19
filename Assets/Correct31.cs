@@ -13,5 +13,6 @@ public class Correct31 : MonoBehaviour
     public void OpenScene()
     {
         SceneManager.LoadScene("Door Selection - Level 2");
+        WhateverScript.Score++;
     }
 }

@@ -18,6 +18,7 @@ public class WhateverScript3 : MonoBehaviour
         Answer10.text = "Capcom";
         Answer11.text = "Nintendo";
         Answer12.text = "Ubisoft";
+        WhateverScript.Score = 0;
     }
 
     // Update is called once per frame

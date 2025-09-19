@@ -12,6 +12,6 @@ public class NextStage1_3 : MonoBehaviour
     // Update is called once per frame
     public void OpenScene()
     {
-        SceneManager.LoadScene("Door Selection - Level 3");
+        SceneManager.LoadScene("Door 1 - Level 2 Part 2");
     }
 }

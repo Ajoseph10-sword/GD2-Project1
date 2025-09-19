@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Start Screen.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Game 1/Door Selection.unity
+    path: Assets/Game 1/Door-Selection/Door Selection.unity
     guid: 7b02b0c39383b1b4bb01dc8569f58aed
   - enabled: 1
     path: Assets/Game 1/Doors/Level 1/Door 1.unity
@@ -39,26 +39,44 @@ EditorBuildSettings:
     path: Assets/Game 1/Doors/Outcomes/Incorrect3-1.unity
     guid: 59f48dcedf6b78142b886ee0fc4802b0
   - enabled: 1
-    path: Assets/Game 1/Door Selection - Level 2.unity
+    path: Assets/Game 1/Door-Selection/Door Selection - Level 2.unity
     guid: 2f4ef9fa0fcfe604199bec4001ce4e5a
   - enabled: 1
     path: Assets/Game 1/Doors/Level 2/Door 1 - Level 2.unity
     guid: 7b2edf1fc8c259448ba6d901331f204f
   - enabled: 1
+    path: Assets/Game 1/Doors/Level 2/Door 1 - Level 2 Part 2.unity
+    guid: 800b38fd902025d45b9bdf7a6bca826e
+  - enabled: 1
     path: Assets/Game 1/Doors/Level 2/Door 2 - Level 2.unity
     guid: 56cefad7fd93c2e4392098f100163c95
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 2/Door 2 - Level 2 Part 2.unity
+    guid: 04b55554699c8214ab32f61fdac688b5
   - enabled: 1
     path: Assets/Game 1/Doors/Level 2/Door 3 - Level 2.unity
     guid: 55ce96777283a9c47926e84c0320e5dd
   - enabled: 1
+    path: Assets/Game 1/Doors/Level 2/Door 3 - Level 2 Part 2.unity
+    guid: 4e618ee1af51f124f996552bf56e7de3
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Correct1-2.unity
     guid: 1b514b38de5659d498287bcda1a82497
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct1-2-2.unity
+    guid: 8d5c24bc4a7ce0c42b5bbfe9c0d72d51
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Correct2-2.unity
     guid: 559e3d3b6d302354c8027ba3943493fe
   - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct2-2-2.unity
+    guid: 85cd6733712faa0409ee2467bfd2d751
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Correct3-2.unity
     guid: 29a3a076656254f4ab1cf708851c2b00
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct3-2-2.unity
+    guid: a4b76cb9e9fba454ca555e0bd749b115
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Incorrect1-2.unity
     guid: a478ab16217665944a0417d54f136980
@@ -69,26 +87,71 @@ EditorBuildSettings:
     path: Assets/Game 1/Doors/Outcomes/Incorrect3-2.unity
     guid: 08eb47abc38fbf24697e18e24e11ec45
   - enabled: 1
-    path: Assets/Game 1/Door Selection - Level 3.unity
+    path: Assets/Game 1/Door-Selection/Door Selection - Level 3.unity
     guid: eebc7a5ccd0ed7d479e624846ffce4f8
   - enabled: 1
     path: Assets/Game 1/Doors/Level 3/Door 1 - Level 3.unity
     guid: 38d37dfd46672f74aac548548f69d6d2
   - enabled: 1
+    path: Assets/Game 1/Doors/Level 3/Door 1 - Level 3-2.unity
+    guid: 603393b42664fa04ab63509353b400e7
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 3/Door 1 - Level 3-3.unity
+    guid: 74e6012fff20ebd4da31b6733d8f8fed
+  - enabled: 1
     path: Assets/Game 1/Doors/Level 3/Door 2 - Level 3.unity
     guid: 73d81ba288fa25546adf8dae4a3c2492
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 3/Door 2 - Level 3-2.unity
+    guid: 4f223ee7b69bca44ea6e756c2b0d9b8f
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 3/Door 2 - Level 3-3.unity
+    guid: 0469879d53818064788487ac65e0e381
   - enabled: 1
     path: Assets/Game 1/Doors/Level 3/Door 3 - Level 3.unity
     guid: 4e384521cca0dfb4a858fc10f6f50e2e
   - enabled: 1
+    path: Assets/Game 1/Doors/Level 3/Door 3 - Level 3-2.unity
+    guid: aa538f4f948824841b6d013d6bf54a69
+  - enabled: 1
+    path: Assets/Game 1/Doors/Level 3/Door 3 - Level 3-3.unity
+    guid: e095d054c013da447a29e4988cf3a8aa
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Correct1-3.unity
     guid: 487e21d52fbf98d43b2731663fdcc19b
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct1-3-2.unity
+    guid: b8d178df99e3bd94ca00dad3d7ed46b0
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct1-3-3.unity
+    guid: ecc529cead81575409c3094bc175ee05
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Correct2-3.unity
     guid: fd559fc918af0d342942cb89806b5c64
   - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct2-3-2.unity
+    guid: a5c47093766be734a99ee5c96dbc7198
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct2-3-3.unity
+    guid: 5e4cbdc8c4a23db4f87bb8713eda5468
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Correct3-3.unity
     guid: 3c12a919d40e45947adac0683194283d
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct3-3-2.unity
+    guid: b393b1eb9d671664ca77ce182a2c0483
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Correct3-3-3.unity
+    guid: e2dc2c0e4dbb4694983306791a843cb6
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Incorrect1-3.unity
+    guid: ecf22bcc27cad274eaf980d8630913dd
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Incorrect2-3.unity
+    guid: e8aeda3b4c77ad441becbcff8a8a22e9
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Incorrect3-3.unity
+    guid: d77e206e11ccf7b4c9fe990af71a3014
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Times Up1.unity
     guid: 0485f3aaea7e19d428aae5f93f3b6d45
@@ -102,20 +165,47 @@ EditorBuildSettings:
     path: Assets/Game 1/Doors/Outcomes/Times Up4.unity
     guid: d34b2a08899639a478117bfa5728af22
   - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up4-2.unity
+    guid: 7a14856e614b15645bf7e737ecc2618b
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Times Up5.unity
     guid: e75905f07aa20a94b9c70efec67124b5
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up5-2.unity
+    guid: 9fcc2ca807e57d34a93328c050353ff9
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Times Up6.unity
     guid: 6db0bd5f9d0410b409e7e9105bf2bf42
   - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up6-2.unity
+    guid: ff7e20dc4fba6294f92abb5d255de439
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Times Up7.unity
     guid: fb2950cbe6764384f82e281a5dac3c76
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up7-3-1.unity
+    guid: 4dd8cb30d34fe1a4faa2a4ec66893ac0
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up7-3-2.unity
+    guid: 105e709d5192908418cacab58f25c0ee
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Times Up8.unity
     guid: 6143bde99b61cb54ebb959e28e113542
   - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up8-1.unity
+    guid: 6e71a4f7ce742404d8d560aee4fa5b2e
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up8-2.unity
+    guid: 7b7206c64d0f1a147a14669aa10a63be
+  - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/Times Up9.unity
     guid: 683c9afd200d97a42a9bf4ffded567c3
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up9-1.unity
+    guid: f93ddf3a1262de64c94baff2771cfea5
+  - enabled: 1
+    path: Assets/Game 1/Doors/Outcomes/Times Up9-2.unity
+    guid: ec3a7b7bbe3c5874ca37d0ede1ac2c3b
   - enabled: 1
     path: Assets/Game 1/Doors/Outcomes/WIn Game.unity
     guid: 76875c116ee095a4aa7d102ef12ccc85

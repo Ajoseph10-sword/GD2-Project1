@@ -656,7 +656,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1044657139}
-        m_TargetAssemblyTypeName: EndGame1, Assembly-CSharp
+        m_TargetAssemblyTypeName: history31, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1044657133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1520cb6e4aff6c14e8f04798437d91fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 507e4fcb54ba8db478f7cacb55e7e37d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1262405900

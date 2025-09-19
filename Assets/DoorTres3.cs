@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorTres3 : MonoBehaviour
 {
@@ -9,8 +10,8 @@ public class DoorTres3 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void OpenScene()
     {
-        
+        SceneManager.LoadScene("Door 3 - Level 3");
     }
 }

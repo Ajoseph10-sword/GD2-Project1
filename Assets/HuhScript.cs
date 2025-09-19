@@ -9,7 +9,8 @@ public class HuhScript : MonoBehaviour
     public TextMeshProUGUI Answer22;
     public TextMeshProUGUI Answer23;
     public TextMeshProUGUI Answer24;
-
+    public TextMeshProUGUI dandadan;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,6 +19,7 @@ public class HuhScript : MonoBehaviour
         Answer22.text = "Room-Room Fruit";
         Answer23.text = "Heart-Heart Fruit";
         Answer24.text = "Op-Op Fruit";
+        WhateverScript.Score = 1;
     }
 
     public void OpenScene()
@@ -29,6 +31,7 @@ public class HuhScript : MonoBehaviour
     void Update()
     {
         Timer -= Time.deltaTime;
+        dandadan.text = "Time. " + Timer.ToString("0.0");
         if (Timer <= 0)
         {
             SceneManager.LoadScene("Times Up4");

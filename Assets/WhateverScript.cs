@@ -10,9 +10,10 @@ public class WhateverScript : MonoBehaviour
     public TextMeshProUGUI Answer3;
     public TextMeshProUGUI Answer4;
     public TextMeshProUGUI Text;
-    public TextMeshProUGUI Score;
+    public TextMeshProUGUI ScoreTxt;
+    public static float Score = 0;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Start is calle d once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Title.text = "In the anime One Piece, what is the ephitet of Monkey D. Luffy?";
@@ -20,7 +21,7 @@ public class WhateverScript : MonoBehaviour
         Answer2.text = "Rubber Man";
         Answer3.text = "Joy Boy";
         Answer4.text = "Pirate Goku";
-
+        ScoreTxt.text = "0" + Score;
     }
 
     // Update is called once per frame

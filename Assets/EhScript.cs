@@ -21,7 +21,7 @@ public class EhScript : MonoBehaviour
         Answer23.text = "Apothecary Diaries";
         Answer33.text = "DanDaDan";
         Answer43.text = "Solo Leveling";
-
+        WhateverScript.Score = 2;
     }
 
     // Update is called once per frame

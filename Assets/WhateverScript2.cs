@@ -18,6 +18,7 @@ public class WhateverScript2 : MonoBehaviour
         Answer6.text = "Germa-Italia-Japan Alliance";
         Answer7.text = "Axis Powers";
         Answer8.text = "The Losers Club";
+        WhateverScript.Score = 0;
     }
 
     // Update is called once per frame

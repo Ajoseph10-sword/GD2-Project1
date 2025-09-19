@@ -271,7 +271,7 @@ MonoBehaviour:
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
   Text: {fileID: 718323799}
-  Score: {fileID: 938866457}
+  ScoreTxt: {fileID: 938866457}
   Timer: 15
 --- !u!1 &411776253
 GameObject:
@@ -601,7 +601,7 @@ MonoBehaviour:
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
   Text: {fileID: 718323799}
-  Score: {fileID: 938866457}
+  ScoreTxt: {fileID: 938866457}
   Timer: 15
 --- !u!114 &718323799
 MonoBehaviour:
@@ -855,7 +855,7 @@ MonoBehaviour:
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
   Text: {fileID: 718323799}
-  Score: {fileID: 938866457}
+  ScoreTxt: {fileID: 938866457}
   Timer: 15
 --- !u!114 &759001023
 MonoBehaviour:
@@ -869,6 +869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d206d4e034ad7894fb51e7de3b7ba30d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Next: Correct1-1
 --- !u!1 &938866455
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 'Score: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1157,7 +1158,7 @@ MonoBehaviour:
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
   Text: {fileID: 718323799}
-  Score: {fileID: 938866457}
+  ScoreTxt: {fileID: 938866457}
   Timer: 15
 --- !u!1 &1060606392
 GameObject:
@@ -1742,7 +1743,7 @@ MonoBehaviour:
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
   Text: {fileID: 718323799}
-  Score: {fileID: 938866457}
+  ScoreTxt: {fileID: 938866457}
   Timer: 15
 --- !u!1 &1863169273
 GameObject:
@@ -2115,7 +2116,7 @@ MonoBehaviour:
   Answer3: {fileID: 505106654}
   Answer4: {fileID: 411776255}
   Text: {fileID: 718323799}
-  Score: {fileID: 938866457}
+  ScoreTxt: {fileID: 938866457}
   Timer: 15
 --- !u!1 &2125795979
 GameObject:

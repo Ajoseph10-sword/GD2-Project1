@@ -13,5 +13,6 @@ public class Correctomundo22 : MonoBehaviour
     public void OpenScene()
     {
         SceneManager.LoadScene("Door Selection - Level 3");
+        WhateverScript.Score++;
     }
 }

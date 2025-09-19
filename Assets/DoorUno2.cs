@@ -12,6 +12,7 @@ public class DoorUno2 : MonoBehaviour
     // Update is called once per frame
     public void OpenScene()
     {
+        
         SceneManager.LoadScene("Door 1 - Level 2");
     }
 }

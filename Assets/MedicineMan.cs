@@ -13,5 +13,6 @@ public class MedicineMan : MonoBehaviour
     public void OpenScene()
     {
         SceneManager.LoadScene("Correct1-2");
+        WhateverScript.Score++;
     }
 }
