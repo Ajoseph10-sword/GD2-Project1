@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 376997256}
   - component: {fileID: 376997255}
   - component: {fileID: 376997258}
+  - component: {fileID: 376997259}
   m_Layer: 5
   m_Name: Answer (2)
   m_TagString: Untagged
@@ -203,9 +204,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 376997258}
-        m_TargetAssemblyTypeName: HuhScript, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 376997259}
+        m_TargetAssemblyTypeName: DragonFist, Assembly-CSharp
+        m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -265,13 +266,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe88b19f533a46343b4a5736ef3f05c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2_2: {fileID: 0}
-  Answer41: {fileID: 0}
-  Answer42: {fileID: 0}
-  Answer43: {fileID: 0}
-  Answer44: {fileID: 0}
-  dandadans2: {fileID: 0}
+  QP2_2: {fileID: 1337811958}
+  Answer41: {fileID: 1597537480}
+  Answer42: {fileID: 2033693905}
+  Answer43: {fileID: 505106654}
+  Answer44: {fileID: 411776255}
+  dandadans2: {fileID: 1840695152}
   Timer: 10
+--- !u!114 &376997259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376997253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8819a604bf176f4b8727d77105eaabd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &411776253
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +642,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 759001022}
-        m_TargetAssemblyTypeName: HuhScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: HuhScript01, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -687,16 +700,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 759001017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
+  m_Script: {fileID: 11500000, guid: fe88b19f533a46343b4a5736ef3f05c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  dandadan: {fileID: 1840695152}
-  Timer: 15
+  QP2_2: {fileID: 1337811958}
+  Answer41: {fileID: 1597537480}
+  Answer42: {fileID: 2033693905}
+  Answer43: {fileID: 505106654}
+  Answer44: {fileID: 411776255}
+  dandadans2: {fileID: 1840695152}
+  Timer: 10
 --- !u!1 &971176485
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,8 +858,7 @@ GameObject:
   - component: {fileID: 987409307}
   - component: {fileID: 987409306}
   - component: {fileID: 987409305}
-  - component: {fileID: 987409309}
-  - component: {fileID: 987409310}
+  - component: {fileID: 987409308}
   m_Layer: 5
   m_Name: Answer (4)
   m_TagString: Untagged
@@ -918,8 +930,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MedicineMan, Assembly-CSharp
+      - m_Target: {fileID: 987409308}
+        m_TargetAssemblyTypeName: HuhScript01, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -968,7 +980,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987409302}
   m_CullTransparentMesh: 1
---- !u!114 &987409309
+--- !u!114 &987409308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,28 +989,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 987409302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
+  m_Script: {fileID: 11500000, guid: fe88b19f533a46343b4a5736ef3f05c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  dandadan: {fileID: 1840695152}
-  Timer: 15
---- !u!114 &987409310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987409302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8819a604bf176f4b8727d77105eaabd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  QP2_2: {fileID: 1337811958}
+  Answer41: {fileID: 1597537480}
+  Answer42: {fileID: 2033693905}
+  Answer43: {fileID: 505106654}
+  Answer44: {fileID: 411776255}
+  dandadans2: {fileID: 1840695152}
+  Timer: 10
 --- !u!1 &1060606392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,7 +1516,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1827444350}
-        m_TargetAssemblyTypeName: HuhScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: HuhScript01, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 1
         m_Arguments:
@@ -1574,16 +1574,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1827444344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d27e2d80d29f7a41828f058af03155f, type: 3}
+  m_Script: {fileID: 11500000, guid: fe88b19f533a46343b4a5736ef3f05c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QP2: {fileID: 1337811958}
-  Answer21: {fileID: 1597537480}
-  Answer22: {fileID: 2033693905}
-  Answer23: {fileID: 505106654}
-  Answer24: {fileID: 411776255}
-  dandadan: {fileID: 1840695152}
-  Timer: 15
+  QP2_2: {fileID: 1337811958}
+  Answer41: {fileID: 1597537480}
+  Answer42: {fileID: 2033693905}
+  Answer43: {fileID: 505106654}
+  Answer44: {fileID: 411776255}
+  dandadans2: {fileID: 1840695152}
+  Timer: 10
 --- !u!1 &1840695151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,7 +1738,7 @@ MonoBehaviour:
   Answer42: {fileID: 2033693905}
   Answer43: {fileID: 505106654}
   Answer44: {fileID: 411776255}
-  dandadans2: {fileID: 1337811958}
+  dandadans2: {fileID: 1840695152}
   Timer: 10
 --- !u!1 &1863169273
 GameObject:
